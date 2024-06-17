@@ -1,0 +1,906 @@
+repo_name: Achufam24/nturu
+report_id: 29742dcc27f06f45c1c6d98e26e44f14
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-17T09:05:16+00:00'
+requested_by: CeoFred
+provider: github
+branch: main
+detected_tools_count: 65
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Achufam24/nturu
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Achufam24/nturu
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/Dockerfile
+  detection_source: temp/fiber/Dockerfile
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: Echo
+  description: High performance, extensible, minimalist Go web framework
+  website_url: https://echo.labstack.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.mod
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: Gin Gonic
+  description: HTTP web framework written in Go
+  website_url: https://gin-gonic.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.mod
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.mod
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.mod
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Achufam24/nturu
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Achufam24/nturu
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/.github/workflows/go.yml
+  detection_source: ".github/workflows/go.yml"
+  last_updated_by: Johnson-Awah Alfred
+  last_updated_on: 2023-12-03 14:03:35.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.mod
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/Dockerfile
+  detection_source: temp/fiber/Dockerfile
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Achufam24/nturu
+  detection_source: Repo Metadata
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: assert.v1
+  description: Package assert provides some basic assertion functions for testing
+    and also provides the building blocks for creating your own more complex validations
+  package_url: https://pkg.go.dev/gopkg.in/go-playground/assert.v1
+  version: 1.2.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: bytebufferpool
+  description: Anti-memory-waste byte buffer pool
+  package_url: https://pkg.go.dev/github.com/valyala/bytebufferpool
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-01 14:40:59.000000000 Z
+- name: codec
+  description: Idiomatic codec and rpc lib for msgpack, cbor, json, etc
+  package_url: https://pkg.go.dev/github.com/ugorji/go/codec
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.12.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: fasthttp
+  description: Fast HTTP package for Go
+  package_url: https://pkg.go.dev/github.com/valyala/fasthttp
+  version: 1.40.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: fasttemplate
+  description: Simple and fast template engine for Go
+  package_url: https://pkg.go.dev/github.com/valyala/fasttemplate
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: gin
+  description: Gin is a HTTP web framework written in Go
+  package_url: https://pkg.go.dev/github.com/gin-gonic/gin
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: go
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: go-errors/errors
+  description: Errors with stacktraces for go
+  package_url: https://pkg.go.dev/github.com/go-errors/errors
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: go/compute/metadata
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/compute/metadata
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: go/iam
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/iam
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: godotenv
+  description: A Go port of Ruby's dotenv library
+  package_url: https://pkg.go.dev/github.com/joho/godotenv
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: gommon
+  description: Common packages for Go
+  package_url: https://pkg.go.dev/github.com/labstack/gommon
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: inflection
+  description: Pluralizes and singularizes English nouns
+  package_url: https://pkg.go.dev/github.com/jinzhu/inflection
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: jsonpointer
+  description: Fork of gojsonpointer with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonpointer
+  version: 0.19.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: jsonreference
+  description: Fork of gojsonreference with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonreference
+  version: 0.19.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: kr/text
+  description: Miscellaneous functions for formatting text
+  package_url: https://pkg.go.dev/github.com/kr/text
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: locales
+  description: ":earth_americas: a set of locales generated from the CLDR Project
+    which can be used independently or within an i18n package; these were built for
+    use with"
+  package_url: https://pkg.go.dev/github.com/go-playground/locales
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: mimetype
+  description: A golang library for detecting the MIME type and file extension
+  package_url: https://pkg.go.dev/github.com/gabriel-vasile/mimetype
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-01 14:40:59.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.8.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: now
+  description: Now is a time toolkit for golang
+  package_url: https://pkg.go.dev/github.com/jinzhu/now
+  version: 1.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-01 14:40:59.000000000 Z
+- name: pq
+  description: Pure Go Postgres driver for database/sql
+  package_url: https://pkg.go.dev/github.com/lib/pq
+  version: 1.10.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: pretty
+  description: Pretty printing for Go values
+  package_url: https://pkg.go.dev/github.com/kr/pretty
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.mod
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: pubsub
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/pubsub
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: schema
+  description: Package gorilla/schema fills a struct with form values
+  package_url: https://pkg.go.dev/github.com/gorilla/schema
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: spec
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/spec
+  version: 0.20.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.19.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: swaggo/swag
+  description: Automatically generate RESTful API documentation with Swagger 2.0 for
+    Go
+  package_url: https://pkg.go.dev/github.com/swaggo/swag
+  version: 1.16.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: tcplisten
+  description: Customizable TCP net.Listener for Go
+  package_url: https://pkg.go.dev/github.com/valyala/tcplisten
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: universal-translator
+  description: ":speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization
+    rules"
+  package_url: https://pkg.go.dev/github.com/go-playground/universal-translator
+  version: 0.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: validator
+  description: ":100:Go Struct and Field validation"
+  package_url: https://pkg.go.dev/github.com/go-playground/validator
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.mod
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Achufam24/nturu/blob/main/temp/fiber/go.sum
+  detection_source: temp/fiber/go.mod
+  last_updated_by: CeoFred
+  last_updated_on: 2023-12-07 17:25:58.000000000 Z
